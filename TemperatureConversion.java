@@ -35,7 +35,12 @@ public class TemperatureConversion
 		return (9.0/5.0) * c + 32;
 		
 		
-	}
+	}//celsiusToFaherenheit
+	public static double celsiusToKelvin(double c)
+	{
+		//test test
+		return 0.0;
+	}//celsiusToKelvin
 
 }//class
 /* 
