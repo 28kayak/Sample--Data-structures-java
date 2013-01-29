@@ -26,6 +26,35 @@ public class MethodTest
 			//SeatChart seatChart = new SeatChart(allocateSeat);
 			System.out.println(allocateSeat);
 			
+			
+			int array[] = new int[allocateSeat];
+			/*
+			for(int i = 0; i < array.length; i++)
+			{
+				array[i] = i;
+				System.out.println(array[i]);  
+			}
+			*/
+			System.out.println("from net");
+			/*for ( int i = 0; i < array.length; ++i ) 
+			{
+				array[i] = i;
+				System.out.println(array[i]); 
+				
+			}
+			System.out.println(array[allocateSeat]);
+			
+			 */ 
+			String array1[] = new String[10];
+			
+			 for ( int i = 0; i < array.length; ++i )
+			 {
+					array1[i] = "ƒf[ƒ^_" + i;
+					System.out.println(array1[i]);
+			}
+			
+			
+			
 		}		
 		
 	}
